@@ -17,6 +17,6 @@ for i in range(len(option)):
                 value=i,
                 padx=20,
                 font=("Arial", 16),
-                command=show).pack(anchor=W)
+                command=show).pack(anchor=W) # anchor W means left side of the window 
 
 window.mainloop()

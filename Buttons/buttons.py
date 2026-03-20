@@ -10,7 +10,7 @@ def click():
 
 window=Tk()
 
-photo=PhotoImage(file="Buttons/like.png") 
+photo=PhotoImage(file="Buttons/likes.png") 
 resize=photo.subsample(5,5) 
 
 window.title("Button Example")

@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import filedialog
 
 def saveFile():
-    filePath=filedialog.asksaveasfilename(initialdir="C:\\Users\\ANKAN\\OneDrive\\Desktop\\VS CODE\\Python\\My Gui\\FilesHandling",
+    filePath=filedialog.asksaveasfilename(initialdir="D:\\Work\\VS CODE\\Python\\My Gui\\FilesHandling",
                                           defaultextension=".txt",
                                           filetypes=(("Text File","*.txt"),("All Files","*.*"),("HTML File","*.html")),
                                           title="Save a File")

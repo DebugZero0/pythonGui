@@ -1,0 +1,5 @@
+
+# Ignore Python bytecode caches in every folder/subfolder
+__pycache__/
+**/__pycache__/
+*.pyc

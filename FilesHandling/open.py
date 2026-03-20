@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import filedialog
 
 def openFile():
-    filePath=filedialog.askopenfilename(initialdir="C:\\Users\\ANKAN\\OneDrive\\Desktop\\VS CODE\\Python\\My Gui\\FilesHandling",
+    filePath=filedialog.askopenfilename(initialdir="D:\\Work\\VS CODE\\Python\\My Gui\\FilesHandling",
                                         filetypes=(("Text File","*.txt"),("All Files","*.*")),
                                         title="Open a File")
     # file=open(filePath,'r')
